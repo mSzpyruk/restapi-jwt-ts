@@ -1,0 +1,16 @@
+{
+  "name": "restapi-jwt-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/src/index.js",
+    "dev": "tsc-watch --onSuccess \"node ./dist/src/index.js\" ",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5",
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {}
+}
